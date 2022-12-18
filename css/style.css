@@ -142,8 +142,8 @@ header .flex {
   justify-content: space-between;
 }
   
- .nav-link {
-   padding-left: 1.5em;
+.nav-link {
+    padding-left: 1.5em;
 }
   
   .nav-list {
@@ -151,11 +151,11 @@ header .flex {
   }
 
   section .container {
-    width: 60%;
+    width: 65%;
   }
 
   .sidebar {
-    width: 35%;
+    width: 30%;
   }
   
   aside {
@@ -184,7 +184,7 @@ header .flex {
   }
   
   .img-sec {
-    height: 200px;
+    height: 250px;
     object-fit: cover;
   }
 }
