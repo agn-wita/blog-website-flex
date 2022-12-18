@@ -103,7 +103,8 @@ margin-top: 1em;
 background: grey;
 }
 
-.last-title::after {
+.last-title::after,
+.post-main-about::after {
 content: none;
 }
 
@@ -114,6 +115,10 @@ aside {
 
 aside h3 {
   margin-top: 1em;
+}
+
+.aside-main-title {
+  text-transform: uppercase;
 }
 
 aside h3:last-child {
@@ -129,6 +134,10 @@ aside h3:last-child {
 .aside-recent,
 .aside-about {
   margin-top: 1.5em;
+}
+
+.about-main-title {
+  margin-top: 1em;
 }
 
 /* ========== home page big screens ========= */
