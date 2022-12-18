@@ -38,6 +38,7 @@ header,
   object-fit: cover;
   margin-top: 1.5em;
   width: 100%;
+  display: block;
 }
 
 /* ============ menu navigation ============= */
@@ -90,6 +91,8 @@ h3 {
   font-size: .8rem;
 }
 
+/* ========== layout ========= */
+
 .post-main::after,
 .aside-sec-title::after {
 content: "";
@@ -124,7 +127,9 @@ aside h3:last-child {
   margin-top: 1.5em;
 }
 
-@media (min-width: 600px) {
+/* ========== home page big screens ========= */
+
+@media (min-width: 675px) {
   .flex {
   display:flex;
 }
@@ -139,6 +144,14 @@ header .flex {
   
   .nav-list {
     align-items: baseline;
+  }
+
+  section .container {
+    width: 60%;
+  }
+
+  .sidebar {
+    width: 35%;
   }
   
   aside {
@@ -171,3 +184,5 @@ header .flex {
     object-fit: cover;
   }
 }
+
+
