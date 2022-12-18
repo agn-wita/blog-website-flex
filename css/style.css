@@ -103,6 +103,10 @@ margin-top: 1em;
 background: grey;
 }
 
+.last-title::after {
+content: none;
+}
+
 .post-sec,
 aside {
   border: solid green 4px;
