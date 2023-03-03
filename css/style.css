@@ -60,7 +60,7 @@ header,
 }
 
 .current {
-  border-bottom: solid 2px blue;
+  color: orangered;
 }
 
 /* ========== typography ========= */
