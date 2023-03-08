@@ -1,5 +1,7 @@
 # blog-website-flex
 
+The project of fully responsive blog website with 3 subpages: home, about me, recent posts. For all subpages we used header with title, subtitle and navigation menu. The layout of navigation menu and main content is different for large and small screens. Footer is the same to all subpages
+
 ## HTML/CSS
 - Google fonts
 - display flex
